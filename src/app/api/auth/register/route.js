@@ -1,4 +1,5 @@
 import { User, connect } from "@/db";
+import { serialize } from "cookie";
 import { NextResponse } from "next/server";
 
 export const POST = async (req) => {

@@ -52,7 +52,7 @@ export default function Signup() {
                         <Input ref={ref} placeholder="What's your name?" type="text" label="Name" id="name" onChange={changeHandler} value={data.name} />
                         <Input placeholder="What's your email?" type="email" label="Email" id="email" onChange={changeHandler} value={data.email} />
                         <Input placeholder="What's your password?" type="password" label="Password" id="password" onChange={changeHandler} value={data.password} />
-                        <button type='submit' className='bg-blue-700 border-none outline-none text-sm px-4 py-2 rounded hover:opacity-90'>Sign In</button>
+                        <button type='submit' className='bg-blue-700 border-none outline-none text-sm px-4 py-2 rounded hover:opacity-90'>Sign Up</button>
                     </form>
                     <p className='text-xs text-center text-white/50'>Already have account? <Link href="/signin" className='text-blue-600 hover:underline'>Sign In</Link></p>
                 </div>
